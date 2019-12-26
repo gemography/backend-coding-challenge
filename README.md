@@ -6,7 +6,7 @@ If you don't already have code to share, you can work on our coding challenge de
 
 Please organize, design and document your code as if it were going into production, then send us a link to the hosted repository (e.g. Github, Bitbucket, Gitlab...).
 
-## Technical spec
+## Technical specs
 
 We believe good engineering is about using the right tool for the right job, and constantly learning about them.
 
@@ -16,7 +16,7 @@ No need to use database or caching system.
 
 The microservice needs to be secured.
 
-## Functional spec
+## Functional specs
 
 - Develop a REST microservice that list the languages used by the 100 trendiest public repos on GitHub.
 - For every language, you need to calculate the attributes below 👇:
