@@ -18,7 +18,7 @@ The microservice needs to be secured.
 
 ## Functional specs
 
-- Develop a REST microservice that list the languages used by the 100 trendiest public repos on GitHub.
+- Develop a REST microservice that list the languages used by the 100 trending public repos on GitHub.
 - For every language, you need to calculate the attributes below 👇:
     - Number of repos using this language
     - The list of repos using the language
