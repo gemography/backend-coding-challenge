@@ -29,7 +29,11 @@ Fetching trending repositories simply translates to fetching the most starred re
 https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc
 ```
 
-The JSON data from Github will be paginated (you'll receive around 100 repos per JSON page). You can ignore the subsequent pages since you only need the first 100 repositories.
+The JSON data from Github will be paginated (By default, you'll receive around 30 repos per JSON page). You can change that and set a custom page size up to 100 by adding the ?per_page parameter.
+
+```
+https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc&per_page=100
+```
 
 If you want to learn more about the Github API, you can click on the following [link](https://developer.github.com/v3/).
 
