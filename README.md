@@ -26,7 +26,7 @@ No need to use database or caching system.
 Fetching trending repositories simply translates to fetching the most starred repos created in the last 30 days ( from now ). To do that, you'll need to call the following endpoint:
 
 ```
-https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc
+https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc&per_page=100
 ```
 
 The JSON data from Github will be paginated (you'll receive around 100 repos per JSON page). You can ignore the subsequent pages since you only need the first 100 repositories.
